@@ -1,0 +1,79 @@
+* {
+    color: white;
+}
+
+
+main {
+     background: rgba(0, 0, 0, .65);
+    margin: auto 0;
+}
+
+
+.container {
+    padding: 3rem 0;
+}
+
+
+h1 {
+    margin-left: 10rem;
+    font-size: 4rem;
+}
+
+
+h2 {
+    margin-top: 4rem;
+    margin-bottom: 0.5rem;
+    margin-left: 13rem;
+    font-size: 2.75rem;
+}
+
+
+p {
+    margin-left: 13rem;
+    font-size: 2rem;
+}
+
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+p a:hover {
+    color: rgb(224, 46, 0);
+}
+
+
+.green:hover {
+    color: green;
+}
+
+
+@media screen and (max-width: 400px) {
+    h1, h2, p {
+        margin-left: 1rem;
+    }
+}
+
+
+.btn {
+    text-align: center;
+    margin-top: 4rem;
+    box-shadow: none;
+    border: none;
+    width: 15rem;
+    padding: 1rem 1.5rem;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgba(80, 80, 80, .9);
+    font-size: 1.6rem;
+    transition: 35ms ease-in;
+}
+
+
+.btn:hover {
+    background: rgb(224, 46, 0);
+    cursor: pointer;
+    color: white;
+}

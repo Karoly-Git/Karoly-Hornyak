@@ -1,0 +1,68 @@
+* {
+    color: white;
+}
+
+
+main {
+    background: rgba(0, 0, 0, .65);
+    margin: auto 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.aboutme, .refferencies {
+    margin-left: 6rem;
+    margin-right: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.about-item {
+    display: inline-block;
+    max-width: 1000px;
+    margin: 0rem;
+
+}
+.ref-item {
+    display: inline-block;
+    max-width: 1000px;
+    margin-bottom: 4rem;
+    *box-shadow: 5px 5px 5px white;
+}
+
+.img-me {
+    height: 15rem;
+    float: left;
+    margin-right: 2rem;
+    background: rgba(255, 255, 255, .7);
+}
+
+.about-item {
+    text-align: justify;
+}
+
+.ref-img {
+    width: 100%;
+}
+
+h2 {
+    font-size: 2.75rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.75rem;
+}
+
